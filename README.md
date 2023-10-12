@@ -1,5 +1,10 @@
 # Quarkus trivial app to reproduce issue on Semeru 17 FIPS mode
 
+requires a Semeru 17 JVM running on a RedHat x86_64 system with FIPS mode enabled.  See https://www.ibm.com/support/pages/node/6612693 and https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/security_hardening/using-the-system-wide-cryptographic-policies_security-hardening#switching-the-system-to-fips-mode_using-the-system-wide-cryptographic-policies
+
+Download Semeru and install Semeru from https://github.com/ibmruntimes/semeru17-certified-binaries/releases/download/jdk-17.0.8.1%2B1_openj9-0.40.0/ibm-semeru-certified-jdk_x64_linux_17.0.8.1.tar.gz
+
+
 Compile with
 ```
 mvnw clean package
